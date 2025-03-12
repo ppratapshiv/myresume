@@ -143,7 +143,7 @@ const blogData = [
 function About({title, subtitle, titleContent}){
  return (
     <>
-      <LeftSidePane name='Chris Evans' designation='Senior Software Engineer' profilepic={profilepic}/>
+      <LeftSidePane name='Guddu Pandit' designation='Senior Software Engineer' profilepic={profilepic}/>
       <div className="px-2 pt-[5rem] pb-10 overflow-auto w-[80%] overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-[#ccc] dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
         <div className="flex items-center">
             <div className='w-[40%] flex flex-col gap-3'>
